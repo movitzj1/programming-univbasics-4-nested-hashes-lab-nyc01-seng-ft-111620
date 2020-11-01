@@ -73,7 +73,7 @@ def adding_matz
         :languages => ["C"]
   		}
 		}
-		programmer_hash.store(:yukihiro_matsumoto, {:known_for => "Ruby", :languages => ["LISP", "C"]})
+		programmer_hash.store(:yukihiro_matsumoto, {:known_for => "Ruby", :languages => ["LISP", "C"]}) #Reference https://ruby-doc.org/core-2.5.1/Hash.html
     return programmer_hash
 end
 
